@@ -28,17 +28,45 @@ figcaption {
   margin-top: 10px;
 }
 
-.matriz-musicdot {
+.matrix-musicdot {
   width: 550px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.familia-tupfeln {
+.family-tupfeln {
   width: 275px;
   float: right;
 }
 
 figure img {
   width: 100%;
+}
+
+.contact_subtitle {
+  display: inline;
+}
+
+.contact_info {
+  margin: 16px 0 24px;
+  padding-left: 32px;
+}
+
+.contact_info-title,
+.contact_info-description {
+  display: inline;
+}
+
+.contact_info-description {
+  margin-left: 10px;
+}
+
+.contact_section {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 16px;
+}
+
+.contact_section--phone {
+  margin-left: 32px;
 }
