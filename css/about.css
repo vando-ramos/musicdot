@@ -70,3 +70,17 @@ figure img {
 .contact_section--phone {
   margin-left: 32px;
 }
+
+.footer {
+  padding: 1.75em 0;
+  font-size: 1.1rem;
+}
+
+.footer_logo {
+  width: 6em;
+}
+
+.footer_copyright {
+  display: inline;
+  margin-left: 1em;
+}
