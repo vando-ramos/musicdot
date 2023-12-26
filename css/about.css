@@ -1,9 +1,12 @@
 body {
   font-family: "Helvetica", "Lucida Grande", sans-serif;
   color: #3d3d3d;
-  width: 940px;
+  width: 80%;
+  max-width: 940px;
   margin-left: auto;
   margin-right: auto;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .title {
@@ -22,6 +25,8 @@ figure {
   border: 1px solid lightgrey;
   margin: 30px;
   padding: 15px;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 figcaption {
@@ -83,4 +88,42 @@ figure img {
 .footer_copyright {
   display: inline;
   margin-left: 1em;
+}
+
+@media (max-width: 850px) {
+  .contact_section {
+    display: block;
+    margin-left: 1em;
+  }
+}
+
+@media (max-width: 622px) {
+  .family-tupfeln {
+    float: none;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 446px) {
+  .contact_subtitle {
+    display: block;
+    margin-bottom: 0;
+  }
+
+  .contact_info {
+    padding-left: 5px;    
+    font-size: .92em;
+    border-left: 2px solid lightgray;
+  }
+
+  .footer {
+    font-size: .92em;
+  }
+}
+
+@media (max-width: 342px) {
+  .contact_info-description {
+    display: block;
+    margin-left: 1em;
+  }
 }
