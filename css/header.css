@@ -14,6 +14,9 @@
 }
 
 .header_menu {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
   background-color: #272B3A87;
 }
 
@@ -24,5 +27,42 @@
 .header_item-menu a {
   display: inline-block;
   padding: 1.86em 1.42em;
+}
+
+@media (min-width: 640px) {
+  .header {
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header_logo {
+    padding: 2.5em 0;
+  }
+
+  .header_menu {
+    background-color: transparent; 
+  }
+}
+
+@media (min-width: 770px) {
+  .header_item-menu--enroll {
+    margin-left: 1.42em;
+
+    border-radius: 6px;
+    background-color: #e93d50;
+  }
+
+  .header_item-menu--enroll a {
+    padding: 1.8em 3.5em;
+  }
+}
+
+@media (min-width: 1066px) {
+  .header {
+    padding-left: calc((100% - 960px) / 2);
+    padding-right: calc((100% - 960px) / 2);
+  }
 }
 
