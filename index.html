@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/form-newsletter.css">
   </head>
 
   <body>
@@ -31,7 +32,7 @@
     </main>
 
     <footer class="footer">
-      <section class="footer_section">
+      <section class="footer_section footer_section--about">
         <img class="footer_logo" src="img/logo.svg" alt="Logo da MusicDot">
 
         <p class="footer_info-company">
@@ -63,7 +64,7 @@
         </ul>
       </section>
 
-      <section class="footer_section">
+      <section class="footer_section footer_section--courses">
         <h2 class="footer_title"> Cursos da MusicDot </h2>
         <nav>
           <ul>
@@ -81,7 +82,7 @@
         </nav>
       </section>
 
-      <section class="footer_section">
+      <section class="footer_section footer_section--links">
         <h2 class="footer_title"> MusicDot </h2>
         <nav>
           <ul>
@@ -94,6 +95,22 @@
             <li class="footer_iten-list"><a href="#">Contato</a></li>
           </ul>
         </nav>
+      </section>
+
+      <section class="footer_section footer_section--newsletter">
+        <h2 class="footer_title"> 
+          Receba novidades e lançamentos 
+        </h2>
+
+        <form action="#" method="get" class="form-newsletter">
+          <label for="form-newsletter_label" class="form-newsletter_label">
+            Seu email pessoal
+          </label>
+          <input id="email-newsletter" name="email-newsletter" type="email" class="form-newsletter_field" placeholder="email@email.com">
+          <button type="submit" class="form-newsletter_button">
+            OK
+          </button>
+        </form>
       </section>
     </footer>
   </body>

@@ -1,7 +1,6 @@
 .footer {
   text-align: center;
   font-size: 0.7rem;
-
   padding: 2em 5%;
 }
 
@@ -18,10 +17,6 @@
 
 .footer_info-company {
   line-height: 1.5;
-}
-
-.footer_section {
-  margin-top: 2em;
 }
 
 .footer_item-social-media {
@@ -43,4 +38,68 @@
 .footer_item-list {  
   font-weight: 500;
   margin: 0.625em 0;
+}
+
+@media (max-width: 640px) {
+  .footer_section {
+    margin-top: 2em;
+  }  
+}
+
+@media(min-width: 640px) and (max-width: 1200px) {
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 1rem;
+  }
+
+  .footer_section--about,
+  .footer_section--courses,
+  .footer_section--links,
+  .footer_section--newsletter {
+    width: 45%;
+  }
+
+  .footer_section--courses {
+    order: 1;
+    margin: 0;
+  }
+
+  .footer_section--links {
+    order: 2;
+    margin: 0;
+  }
+
+  .footer_section--about {
+    order: 3;
+    margin-top: 2em;
+  }
+
+  .footer_section--newsletter {
+    order: 4;
+    margin-top: 2em;
+  }
+}
+
+@media(min-width: 1200px) {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85rem;    
+    text-align: left;
+  }
+
+  .footer_title {
+    font-size: 1em;
+  }
+
+  .footer_list-social-media {
+    justify-content: left;
+  }
+
+  .footer_section {
+    margin-top: 0;
+    margin-left: 2em;
+  }  
 }
