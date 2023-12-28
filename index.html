@@ -10,10 +10,12 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/form-newsletter.css">
+    <link rel="stylesheet" href="css/container.css">
+    <link rel="stylesheet" href="css/courses.css">
   </head>
 
   <body>
-    <header class="header">
+    <header class="header container">
       <a href="index.html">
         <img class="header_logo" src="img/musicdot-logo-light.svg" title="Ir para a página inicial da Musicdot" alt="Musicdot">
       </a>
@@ -28,10 +30,50 @@
     </header>
 
     <main>
-      Conteúdo principal
+      <section class="courses">
+        <article class="courses_call --large-width">
+          <h1 class="call_title">Cursos online de <strong class="call_title--highlight">música</strong></h1>
+          <p>Comece agora e aprenda sua primeira música em 10 minutos!</p>
+          <a href="courses.html" class="call_courses_enrollment button">Matricule-se</a>
+        </article>
+        <nav>
+          <ul class="courses_list">
+            <li class="course--keyboard-piano">
+                <a href="#">Teclado & Piano</a>
+            </li>
+            <li class="course--guitar">
+                <a href="#">Violão & Guitarra</a>
+            </li>
+            <li class="course--bass">
+                <a href="#">Baixo</a>
+            </li>
+            <li class="course--drums course--highlight">
+                <a href="#">Bateria</a>
+            </li>
+            <li class="course--percussion">
+                <a href="#">Percussão</a>
+            </li>
+            <li class="course--sing course--highlight2">
+                <a href="#">Canto</a>
+            </li>
+            <li class="course--audio">
+                <a href="#">Áudio</a>
+            </li>
+            <li class="course--theory">
+                <a href="#">Teoria</a>
+            </li>
+            <li class="course--blow">
+                <a href="#">Sopro</a>
+            </li>
+            <li class="course--strings">
+                <a href="#">Cordas</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
     </main>
 
-    <footer class="footer">
+    <footer class="footer container">
       <section class="footer_section footer_section--about">
         <img class="footer_logo" src="img/logo.svg" alt="Logo da MusicDot">
 
@@ -68,16 +110,16 @@
         <h2 class="footer_title"> Cursos da MusicDot </h2>
         <nav>
           <ul>
-            <li class="footer_iten-list"><a href="#">Cursos de Teclado & Piano</a></li>
             <li class="footer_iten-list"><a href="#">Cursos de Violão/Guitarra</a></li>
-            <li class="footer_iten-list"><a href="#">Cursos de Baixo</a></li>
-            <li class="footer_iten-list"><a href="#">Cursos de Bateria</a></li>
             <li class="footer_iten-list"><a href="#">Cursos de Percussão</a></li>
+            <li class="footer_iten-list"><a href="#">Cursos de Bateria</a></li>
             <li class="footer_iten-list"><a href="#">Cursos de Canto</a></li>
+            <li class="footer_iten-list"><a href="#">Cursos de Baixo</a></li>
             <li class="footer_iten-list"><a href="#">Cursos de Áudio</a></li>
             <li class="footer_iten-list"><a href="#">Cursos de Teoria</a></li>
             <li class="footer_iten-list"><a href="#">Cursos de Sopro</a></li>
             <li class="footer_iten-list"><a href="#">Cursos de Cordas</a></li>
+            <li class="footer_iten-list"><a href="#">Cursos de Teclado & Piano</a></li>
           </ul>
         </nav>
       </section>

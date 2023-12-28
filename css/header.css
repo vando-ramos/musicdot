@@ -1,11 +1,14 @@
 .header {
-  background-color: #2D5377;
   color: #fff;
   text-align: center;
   font-size: 0.6rem;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.23em;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .header_logo {
@@ -31,7 +34,8 @@
 
 @media (min-width: 640px) {
   .header {
-    padding: 0 5%;
+    padding-top: 0;
+    padding-bottom: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -59,10 +63,4 @@
   }
 }
 
-@media (min-width: 1066px) {
-  .header {
-    padding-left: calc((100% - 960px) / 2);
-    padding-right: calc((100% - 960px) / 2);
-  }
-}
 
