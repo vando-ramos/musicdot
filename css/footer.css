@@ -55,29 +55,29 @@
     font-size: 1rem;
   }
 
-  .footer_section--about,
-  .footer_section--courses,
-  .footer_section--links,
-  .footer_section--newsletter {
+  .footer_section-about,
+  .footer_section-courses,
+  .footer_section-links,
+  .footer_section-newsletter {
     width: 45%;
   }
 
-  .footer_section--courses {
+  .footer_section-courses {
     order: 1;
     margin: 0;
   }
 
-  .footer_section--links {
+  .footer_section-links {
     order: 2;
     margin: 0;
   }
 
-  .footer_section--about {
+  .footer_section-about {
     order: 3;
     margin-top: 2em;
   }
 
-  .footer_section--newsletter {
+  .footer_section-newsletter {
     order: 4;
     margin-top: 2em;
   }
